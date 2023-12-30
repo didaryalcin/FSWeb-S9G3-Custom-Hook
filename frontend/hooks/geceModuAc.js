@@ -1,4 +1,5 @@
 import localStorageKullan from "./localStorageKullan";
+
 function useGeceModu() {
   const [geceModu, setGeceModu] = localStorageKullan("geceModu", false);
 
