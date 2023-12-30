@@ -23,7 +23,6 @@ const App = () => {
   }, [geceModu]);
 
 
-
   return (
     <div className={geceModu ? "dark-mode App" : "App"}>
       <Navbar geceModu={geceModu} setGeceModu={toggleDarkMode} />
